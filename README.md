@@ -39,3 +39,11 @@ Get seeks to find and store relevant software developer content that is good for
 # SEARCH
 
 That is the step that is used to optimistically trigger the Foobar Challenge. Foobar Challenge is triggered by searching releated software developer content on Google Search which will be the output from the **GET** step. A challenge here is to circumvent the Google Captcha bot query detection which is TBD.
+
+# Requirements
+
+To run the driver you would need to install the required Python libraries in requirements.txt:
+
+```
+pip install -r requirements.txt
+```
