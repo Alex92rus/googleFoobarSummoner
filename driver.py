@@ -49,6 +49,7 @@ class SearchHarness:
             for question in questionPair:
                 self.driver.find_element_by_xpath("//div/div/input").clear()
                 search_element = self.driver.find_element_by_xpath("//div/div/input")
+                search_element.clear()
                 search_element.send_keys(question)
                 search_element.send_keys(Keys.RETURN)
                 sleep(20)
